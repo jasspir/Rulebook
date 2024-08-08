@@ -1,0 +1,15 @@
+name: Rulebook
+version: 1.0
+main: you.jass.rulebook.Rulebook
+api-version: 1.21
+authors: [ Jass ]
+description: Adds a rulebook!
+permissions:
+  rulebook.open:
+    default: true
+    usage: /rules
+    description: Opens the rules
+  rulebook.show:
+    default: false
+    usage: /rules <player>
+    description: Shows the rules to a specific players
